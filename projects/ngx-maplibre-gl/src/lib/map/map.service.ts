@@ -601,6 +601,7 @@ export class MapService {
 
     const isIEorEdge =
       window && /msie\s|trident\/|edge\//i.test(window.navigator.userAgent);
+
     if (isIEorEdge) {
       this.mapInstance.setStyle(options.style!);
     }
